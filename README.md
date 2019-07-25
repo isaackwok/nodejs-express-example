@@ -1,5 +1,5 @@
 # nodejs-express-example
-給親愛學弟妹的node.js架站教學
+給親愛學弟妹的node.js架站教學，express的官方文件在此:https://expressjs.com/
 
 ## 事前準備:
 1. 前往 https://nodejs.org/en/ 安裝node.js 
