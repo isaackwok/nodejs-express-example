@@ -8,7 +8,7 @@
 ```
 node -v
 ```
-3. 下載範例nodejs-express-example後，解壓縮並放置於任意位置，打開cmd把路徑切換至該專案的根目錄，並執行指令:
+3. 下載範例nodejs-express-example-master後，解壓縮並放置於任意位置，打開cmd把路徑切換至該專案的根目錄，並執行指令:
 ```
 npm install
 ```
