@@ -1,5 +1,5 @@
 # nodejs-express-example
-給親愛學弟妹的node.js架站教學，express的官方文件在此:https://expressjs.com/。
+給親愛學弟妹的node.js架站教學，express的官方文件在此:https://expressjs.com/
 而開發環境方面，建議你們使用Visual Studio Code(不是Visual Studio喔，不一樣)，下載網址: https://code.visualstudio.com/download
 
 ## 事前準備:
