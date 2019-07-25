@@ -20,7 +20,7 @@ app.get('/evening', function(req,res){
     res.send('<h1>晚安, 親愛的學弟妹們！</h1>');
 });
 
-//localhost:3000/ta_is_handsome?name={你的名字}&age=22
+//localhost:3000/ta_is_handsome?name={你的名字}&age={歲數}
 //這比較特別，有套用query string(常常在網址後看到 >>> name=郭俊豪&age=22)
 app.get('/ta_is_handsome', function(req,res){
     let name = req.query.name; //透過request的query取得name的字串

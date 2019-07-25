@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-express-example",
+  "version": "1.0.0",
+  "description": "給學弟妹的Node.js架站小教學",
+  "main": "app.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac0625/nodejs-express-example.git"
+  },
+  "keywords": [
+    "node.js",
+    "express"
+  ],
+  "author": "Isaac Kwok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaac0625/nodejs-express-example/issues"
+  },
+  "homepage": "https://github.com/isaac0625/nodejs-express-example#readme"
+}
