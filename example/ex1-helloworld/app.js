@@ -1,5 +1,5 @@
 /*
-    與java的import一樣，匯入Express套件，並馬上呼叫建構子
+    1.與java的import一樣，匯入Express套件，並馬上呼叫建構子
     因此app變數已存放Express物件，可進行各種操作
     撰寫javascript時，建議使用const(java的final) 及 let(任何變數型態)來宣告變數
     以var宣告變數的方式雖然還能用，但已經過時了，也不安全

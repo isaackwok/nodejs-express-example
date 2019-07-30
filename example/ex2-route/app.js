@@ -1,6 +1,6 @@
 const app = require('express')();
 
-//localhost:3000
+//1.localhost:3000
 app.get('/', function(req,res){
     res.send('<h1>Hello, 親愛的學弟妹們！</h1>');
 });
