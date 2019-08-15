@@ -1,8 +1,8 @@
 {
   "name": "nodejs-express-example",
   "version": "1.0.0",
-  "description": "給學弟妹的Node.js架站小教學",
-  "main": "app.js",
+  "description": "給親愛學弟妹的node.js架站教學，使用express套件。express的官方文件在此:https://expressjs.com/\r 而開發環境方面，建議你們使用Visual Studio Code(不是Visual Studio喔，不一樣)，下載網址: https://code.visualstudio.com/download",
+  "main": "index.js",
   "directories": {
     "example": "example"
   },
@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node app.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +19,9 @@
   },
   "keywords": [
     "node.js",
-    "express"
+    "html"
   ],
-  "author": "Isaac Kwok",
+  "author": "Isaac",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/isaac0625/nodejs-express-example/issues"
