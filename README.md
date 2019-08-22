@@ -31,8 +31,17 @@ localhost:3000
 
 若要停止網頁(需要更改程式碼後再執行等等...)，則回到cmd並按Ctrl+C。停止後，瀏覧器輸入網址便不會再有反應。
 
-## 範例目錄(2019/07/25更新)
+## 範例目錄(2019/08/22更新)
 ### ex1 - helloworld
 最簡單的Express範例
 ### ex2 - route
 透過網址分流到不同網頁
+### ex3 - sendfile
+傳送html檔案的前端呈現(結合ex1 + ex2)
+
+## 作業目錄(2019/08/22更新)
+### hw1
+最簡單的Express範例，請以GitHub Desktop的方式pust提交
+### hw2
+使用sendFile、Query String、route、form等概念實作前後端互動效果
+要求：
