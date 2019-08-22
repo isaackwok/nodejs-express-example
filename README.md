@@ -41,7 +41,7 @@ localhost:3000
 
 ## 作業目錄(2019/08/22更新)
 ### hw1
-最簡單的Express範例，請以GitHub Desktop的方式pust提交
+最簡單的Express範例，請以GitHub Desktop的方式push提交
 ### hw2
 使用sendFile、Query String、route、form等概念實作前後端互動效果  
 網頁基本架構已提供(homework/hw2/TA_example)，有以下要求：    
