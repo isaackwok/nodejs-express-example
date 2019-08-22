@@ -41,12 +41,13 @@ localhost:3000
 
 ## 作業目錄(2019/08/22更新)
 ### hw1
-最簡單的Express範例，請以GitHub Desktop的方式push提交
+最簡單的Express範例，請以GitHub Desktop的方式push提交  
+詳細講解: https://drive.google.com/file/d/1F75KIIZe646qVj549KHmsMWDNiUYfsqf/view?usp=drivesdk
 ### hw2
 使用sendFile、Query String、route、form等概念實作前後端互動效果  
 **[Important] 請使用GitHub Desktop用push的方式提交作業，以資料夾為單位，資料夾名稱是學號**  
 網頁基本架構已提供(homework/hw2/TA_example)，有以下要求：    
 1. 網頁內容不能與ex3一樣，內容自行構想  
-2. 除了根目錄以外，至少要有2個分流(route)，都要用到query string  
+2. 除了根目錄以外，至少要有2個分流(route)，都要用到query string(至少一個sendFile跟一個send) 
 3. response裡除了基本的顯示資訊，請加上任意計算(例如計算BMI)  
 4. 請在每個分流都加入回到首頁的功能
