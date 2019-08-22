@@ -48,4 +48,4 @@ localhost:3000
 1. 網頁內容不能與ex3一樣，內容自行構想  
 2. 除了根目錄以外，至少要有2個分流(route)，都要用到query string  
 3. response裡除了基本的顯示資訊，請加上任意計算(例如計算BMI)  
-**請使用GitHub Desktop用push的方式提交作業，以資料夾為單位，資料夾名稱是學號**
+**[Important] 請使用GitHub Desktop用push的方式提交作業，以資料夾為單位，資料夾名稱是學號**
