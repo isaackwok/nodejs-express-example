@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>06130035</title>
+    <meta charset="utf-8" />
+    <style>
+        .header {
+            background-color: lightpink;
+            width: 400px;
+            height: 300px;
+            margin: auto;
+        }
+
+        table {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header radius">
+        <h1 style="text-align:center">BMI值計算</h1>
+        <form action="show" method="GET">
+            <table>
+                <tr>
+                    <th>身高：</th>
+                    <td><input name="height" type="text" required /> cm</td>
+                </tr>
+                <tr>
+                    <th>體重：</th>
+                    <td><input name="weight" type="text" required /> kg</td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input id="submit" type="submit" value="開始計算" />
+
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+
+
+    </div>
+</body>
+</html>
