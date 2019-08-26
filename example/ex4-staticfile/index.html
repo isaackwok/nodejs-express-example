@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 <html>
-<header>
+<head>
     <title>04130755</title>
-    <style>
-        body {
-            background-color: powderblue;
-        }
-
-        .header {
-            color: black;
-            background-color: lightgoldenrodyellow;
-            width: fit-content;
-            padding: 10px;
-            border-radius: 8px;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0 auto
-        }
-
-        input {
-            border-radius: 8px;
-        }
-    </style>
-</header>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 
 <body>
     <div class="header radius">Input your information below:
         <!-- 透過form搭配[GET] HTTP method 來進行query string，把資料傳回後端(路徑是show) -->
         <form action="show" method="GET">
             <table>
+                <tr>
+                    <td colspan="2">
+                        <img class="myimg" src="image/monkey.jpg" />
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <!-- 以name取名(用來在後端把資料取出) -->
@@ -52,9 +39,6 @@
                 </tr>
             </table>
         </form>
-        <!-- <form method="GET" action="">
-            <input type="submit" value="回到首頁" />
-        </form> -->
     </div>
 
 
