@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node example/ex4-staticfile/app.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
