@@ -1,7 +1,7 @@
 const express = require('express')();
 const app = express();
 let path = require('path');
-const port = 5500; 
+const port = 3000; 
 
 //定義static目錄，以使用靜態檔案
 app.use(express.static('public'));
