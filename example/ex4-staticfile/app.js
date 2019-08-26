@@ -42,6 +42,6 @@ app.put('/test', function(req,res){
     res.send("<h1>This is TEST.</h1>");
 });
 
-app.listen(port,function(){
+app.listen(process.env.PORT || port,function(){
     console.log("Listening on " + port + " port.");
 });
