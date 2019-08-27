@@ -31,7 +31,7 @@ localhost:3000
 
 若要停止網頁(需要更改程式碼後再執行等等...)，則回到cmd並按Ctrl+C。停止後，瀏覧器輸入網址便不會再有反應。
 
-## 範例目錄(2019/08/26更新)
+## 範例目錄(2019/08/27更新)
 ### ex1 - helloworld
 最簡單的Express範例
 ### ex2 - route
@@ -40,6 +40,11 @@ localhost:3000
 傳送html檔案的前端呈現(結合ex1 + ex2)
 ### ex4 - staticfile
 如何使用靜態檔案(static)
+### ex Bonus1 - Deploy to cloud(Heroku)
+如何把網頁發佈至雲端平台Heroku, 讓網頁能在任何地方存取。  
+範例網址: https://isaactest.herokuapp.com/  
+關鍵: package.json裡的script->start是啟動指令，index.js是程式碼
+
 
 ## 作業目錄(2019/08/22更新)
 ### hw1
