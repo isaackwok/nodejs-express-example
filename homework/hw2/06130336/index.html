@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        .fish {
+            margin: 0 auto;
+            /*
+            margin-left: 400px;
+            margin-top: 150px;
+            */   
+            margin-top: 150px;
+            width: fit-content;
+            padding: 30px 30px 30px 30px;
+            background-color: #1B4965;
+            overflow:auto;
+        }
+
+        .text {
+            color: white;
+        }
+        .button{
+            padding-top:10px;
+        }
+    </style>
+</head>
+<body style="background: #BEE9E8;">
+    <div class="fish">
+        <form id="form1" action="show">
+            <table>
+                <tr>
+                    <td class="text">開始時間</td>
+                    <td>
+                        <input name="start_date" type="date" /></td>
+                    <td>
+                        <input name="start_time" type="time" /></td>
+                </tr>
+                <tr>
+                    <td class="text">結束時間</td>
+                    <td>
+                        <input name="end_date" type="date" /></td>
+                    <td>
+                        <input name="end_time" type="time" /></td>
+                </tr>
+                <tr>
+                    <td class="button">
+                        <input type="submit" value="Submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
