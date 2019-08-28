@@ -16,8 +16,8 @@ app.get('/show',function(req,res){
 	var weight=req.query.weight;
 	height /=100;
 	var bmi=weight/(height*height);
-	
-	res.send("<h1 style='color:red'>你的BMI值 :"+bmi+"</h1>");
+	let form = '<form method="GET" action="/"><input type="submit" value="回到首頁" /></form>';
+	res.send("<h1 style='color:red'>你的BMI值 :"+bmi+"</h1>"+"<br/>"+form);
 	
 });
 app.listen(port,function(){
