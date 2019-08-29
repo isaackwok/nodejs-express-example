@@ -10,47 +10,45 @@
             /*
             margin-left: 400px;
             margin-top: 150px;
-            */   
+            */
             margin-top: 150px;
             width: fit-content;
-            padding: 30px 30px 30px 30px;
+            width:389px;
+            padding: 30px 0px 30px 30px;
             background-color: #1B4965;
-            overflow:auto;
+            overflow: auto;
         }
 
         .text {
             color: white;
         }
-        .button{
-            padding-top:10px;
+
+        .button {
+            padding-top: 10px;
         }
     </style>
 </head>
 <body style="background: #BEE9E8;">
     <div class="fish">
-        <form method="GET" action="show">
+        <form method="GET" action="/">
             <table>
                 <tr>
-                    <td class="text">開始時間</td>
                     <td>
-                        <input name="start_date" type="date" /></td>
-                    <td>
-                        <input name="start_time" type="time" /></td>
+                        <h3 style="color:white;">天數計算：<span id="day" name="day" style="padding-left:20px;"></span></h3>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="text">結束時間</td>
-                    <td>
-                        <input name="end_date" type="date" /></td>
-                    <td>
-                        <input name="end_time" type="time" /></td>
-                </tr>
-                <tr>
+                 <tr>
                     <td class="button">
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="回到首頁" />
                     </td>
                 </tr>
             </table>
         </form>
     </div>
+    <script>
+        let day = "<%= name %>";
+        console.log("Days: " + day);
+        document.getElementById('day').innerHTML = day;
+    </script>
 </body>
 </html>

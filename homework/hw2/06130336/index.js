@@ -30,21 +30,29 @@ exp.get('/show',function(req,res){
     console.log(start.toString());
     console.log(end.toString());
 
-    let day = Math.abs((end - start)/86400000);
+    let day = Math.round(Math.abs((end - start)/86400000));
+    let hour = Math.round(Math.abs(((end - start)%86400000)/ 3600000));
+    let minute = Math.abs(((end - start)%86400000)% 3600000/ 60000);
 
-    console.log(day);
+
+
+    console.log((end - start)%86400000);
     // var start_date_Array = new Array();
     // start_date_Array = req.query.start_date.split("-");
     // var start_year = start_date_Array[0];
     // var start_month = start_date_Array[1];
     // var start_day = start_date_Array[2];
-    let form = '<form method="GET" action="/"><input type="submit" value="回到首頁" /></form>';
-    res.send("<h1 style='color:red'>天數計算 :"+day+"</h1>"+"<br/>"+form);
-    console.log(end_time);
+     let form = '<form method="GET" action="/"><input type="submit" value="回到首頁" /></form>';
+     res.send("<h1 style='color:red'>時間相差計算 :"+day+"天"+hour+"時"+minute+"分"+"</h1>"+"<br/>"+form);
+   // res.sendFile(path.join(__dirname, 'show.html'));
+    // res.json({day:day});
+    // res.send(document.getElementsByName("day").values=day+"天");
+    // console.log(end_time);
 });
 
 exp.get('/two',function(req,res){
-    res.send();
+    let form = '<form method="GET" action="/"><input type="submit" value="回到首頁" /></form>';
+    res.send("<h1 style='color:red'>這是第二個分頁</h1>"+"<br/>"+form);
 });
 
 
